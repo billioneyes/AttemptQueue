@@ -1,5 +1,5 @@
 # AttemptQueue is a web application that takes in users that enter a queue, they upload images or videos, then deletes and moves onto the next
-# There is a live chat meant for everyone to use as they please
+# There is a live chat that is meant for everyone to use as they please
 ## Live chat would strictly be text and would automatically delete after n amount of chat inputs ( depending on server demands )
 
 
