@@ -1,0 +1,7 @@
+# Inside the frontend directory
+npm install axios socket.io-client
+
+# Inside the backend directory
+npm install express socket.io mysql
+
+# It uses react js for frontend, node js + MySQL for backend with socket.io for live chat. NOTE - MySQL has yet to be implemented
