@@ -1,18 +1,29 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center the App */
 .App {
   text-align: center;
 }
 
+/* Logo Styles */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  margin-bottom: 20px; /* Added margin for better spacing */
 }
 
+/* Animation only if prefers-reduced-motion is not set */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: spin 20s linear infinite;
   }
 }
 
+/* Header Styles */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -20,15 +31,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(12px + 2vmin); /* Increased font size */
   color: white;
 }
 
+/* Link Styles */
 .App-link {
   color: #61dafb;
+  text-decoration: none; /* Removed underlines for cleaner look */
+  font-weight: bold; /* Added font-weight for emphasis */
 }
 
-@keyframes App-logo-spin {
+/* Keyframes for logo spin animation */
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }

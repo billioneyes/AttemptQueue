@@ -2,12 +2,14 @@
 import React from 'react';
 import Chat from './components/Chat';
 import VideoQueue from './components/VideoQueue';
+import './App.css';
 
 function App() {
   return (
-    <div>
-      <Chat />
+    <div className='App'>
       <VideoQueue />
+      <Chat />
+      
     </div>
   );
 }
